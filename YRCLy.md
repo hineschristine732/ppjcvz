@@ -1,0 +1,367 @@
+百度蜘蛛代引，github，搜狐视频，加拿大pc28排名代发【蜘蛛池tg：@boheseo】哪里有是个好百度搜索引擎的自动抓取程序，主要用于访问互联网网页、图片、视频等内容并建立索引数据库，以支持用户检索服务。其抓取机制包含补充数据区和主检索区的分层处理，抓取策略结合深度优先与权重优先算法，优先抓取高质量或外链较多的页面，并通过站点地图引导路径。该程序支持Robots协议与Meta标签控制权限（特定商务爬虫除外），针对不同产品线设有专用爬虫标识（如Baiduspider-image、Baiduspider-video等） 。百度蜘蛛通过分析网站内链布局和外链数量计算页面权重，动态调整抓取频率以适应服务器负载及网站更新节奏，持续更新的站点会获得更高抓取频次。其访问结果通过HTTP状态代码（如200、301、404）反馈，并采用DNS反查机制验证身份以防止冒充 。优化策略包括优化URL结构、提升加载速度、提交站点地图等，以实现高效收录。
+百度留痕【蜘蛛池tg：@boheseo】
+代发代引【蜘蛛池tg：@boheseo】
+羌炙质姿炙赝讲靶跋跋(墩酶yBu分)
+状态代码
+
+成功
+200 正常;请求已完成。
+201 正常;紧接POST命令。
+202 正常;已接受用于处理，但处理尚未完成。
+203 正常;部分信息 — 返回的信息只是一部分。
+204 正常;无响应 — 已接收请求，但不存在要回送的信息。
+重定向
+301 永久重定向 — 请求的数据具有新的位置且更改是永久的。
+302 暂时重定向 — 请求的数据临时具有不同URI。
+303 请参阅其它 — 可在另一URI下找到对请求的响应，且应使用 GET方法检索此响应。
+304 未修改 — 未按预期修改文档。
+305 使用代理 — 必须通过位置字段中提供的代理来访问请求的资源。
+306 未使用 — 不再使用;保留此代码以便将来使用。
+代码中的错误
+400 错误请求 — 请求中有语法问题，或不能满足请求。
+401 未授权 — 未授权客户机访问数据。
+402 需要付款 — 表示计费系统已有效。
+403 禁止— 即使有授权也不需要访问。
+404 找不到—服务器找不到给予的资源;文档不存在。
+406 不可接受 — 根据此请求中所发送的“接受”标题，此请求所标识的资源只能生成内容特征为“不可接受”的响应实体。
+407 代理认证请求 — 客户机首先必须使用代理认证自身。
+410 请求的网页不存在(永久);
+415 介质类型不受支持 —服务器拒绝服务请求，因为不支持请求实体的格式。
+500 内部错误 — 因为意外情况，服务器不能完成请求。
+501 未执行 —服务器不支持请求的工具。
+502 错误网关—服务器接收到来自上游服务器的无效响应。
+503 无法获得服务 — 由于临时过载或维护，服务器无法处理请求。
+
+问题解答
+
+Baiduspider对一个网站服务器造成的访问压力如何？
+答：Baiduspider会自动根据服务器的负载能力调节访问密度。在连续访问一段时间后，Baiduspider会暂停一会，以防止增大服务器的访问压力。所以在一般情况下，Baiduspider对您网站的服务器不会造成过大的压力。
+为什么Baiduspider不停的抓取我的网站？
+答：或许您的网站权重高或者对于您网站上新产生的或者持续、有规律更新的页面，Baiduspider会持续抓取。此外，您也可以检查网站访问日志中Baiduspider的访问是否正常，以防止有人恶意冒充Baiduspider来频繁抓取您的网站。 如果您发现Baiduspider非正常抓取您的网站，请反馈至，并请尽量给出Baiduspider对贵站的访问日志，以便于我们跟踪处理。
+我不想我的网站被Baiduspider访问，我该怎么做？
+答：Baiduspider遵守互联网robots协议。您可以利用robots.txt文件完全禁止Baiduspider访问您的网站，或者禁止Baiduspider访问您网站上的部分文件。 注意：禁止Baiduspider访问您的网站，将使您的网站上的网页，在百度搜索引擎以及所有百度提供搜索引擎服务的搜索引擎中无法被搜索到。
+ps:关于robots.txt的写作方法，请参看我们的介绍：robots.txt写作方法
+为什么我的网站已经加了robots.txt，还能在百度搜索出来？
+答：因为搜索引擎索引数据库的更新需要时间。虽然Baiduspider已经停止访问您网站上的网页，但百度搜索引擎数据库中已经建立的网页索引信息，可能需要二至四周才会清除。 另外也请检查您的robots配置是否正确。
+我希望我的网站内容被百度索引但不被保存快照，我该怎么做？
+答：Baiduspider遵守互联网metarobots协议。您可以利用网页meta的设置，使百度显示只对该网页建索引，但并不在搜索结果中显示该网页的快照。
+和robots的更新一样，因为搜索引擎索引数据库的更新需要时间，所以虽然您已经在网页中通过meta禁止了百度在搜索结果中显示该网页的快照，但百度搜索引擎数据库中如果已经建立了网页索引信息，可能需要二至四周才会在线上生效。
+百度蜘蛛在robots.txt中的名字是什么？
+答：“Baiduspider” 首字母B大写，其余为小写。
+Baiduspider多长时间之后会重新抓取我的网页？
+答：百度搜索引擎每周更新，网页视重要性有不同的更新率，频率在几天至一月之间，Baiduspider会重新访问和更新一个网页。
+Baiduspider抓取造成的带宽堵塞？
+答：Baiduspider的正常抓取并不会造成您网站的带宽堵塞，造成此现象可能是由于有人冒充baidu的spider恶意抓取。如果您发现有名为Baiduspider的agent抓取并且造成带宽堵塞，请尽快和我们联系。您可以将信息反馈至百度网页投诉中心，如果能够提供您网站该时段的访问日志将更加有利于我们的分析。
+
+群发外链
+对应名称
+产品名称 对应user-agent
+网页搜索 Baiduspider
+无线搜索 Baiduspider
+图片搜索 Baiduspider-image
+视频搜索 Baiduspider-video
+新闻搜索 Baiduspider-news
+百度搜藏 Baiduspider-favo
+百度联盟Baiduspider-cpro
+竞价蜘蛛Baiduspider-sfk
+
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E9%85%B6%E8%B1%86%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%9F%AD%E6%9C%9F%E7%A8%B3%E8%B5%A2%E6%8A%80%E5%B7%A7-%E8%88%B1%E4%B8%80%E8%B4%A2%E7%BB%8F.md?/oc=oky
+https://github.com/lynchsavannah236/zdvogj/commit/067dac7058d9d7fb3348c58a0c00f193cf5b5cee
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E9%85%B6%E8%B1%86%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%9F%AD%E6%9C%9F%E7%A8%B3%E8%B5%A2%E6%8A%80%E5%B7%A7-%E8%88%B1%E4%B8%80%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%9D%80%E7%BB%84%E7%AE%97%E6%B3%95-%E8%BD%AE%E4%B8%80%E8%B4%A2%E7%BB%8F.md?/hu=eyg
+https://github.com/bakerangela49/grknbo/commit/78b47e20ac4b70571791979ee5241dd2e0e6c868
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%9D%80%E7%BB%84%E7%AE%97%E6%B3%95-%E8%BD%AE%E4%B8%80%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E6%83%A8%E6%81%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%8A%95%E6%B3%A8%E6%8A%80%E5%B7%A7-%E5%88%A8%E7%AA%96%E8%B4%A2%E7%BB%8F.md?/oh=xrp
+https://github.com/meyercheyenne9451/isfjmp/commit/5e8b30dc3c4bdf5164273c1e47afc5ec37b64c86
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E6%83%A8%E6%81%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%8A%95%E6%B3%A8%E6%8A%80%E5%B7%A7-%E5%88%A8%E7%AA%96%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%88%86%E5%8C%80%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%9D%80%E7%BB%84%E5%90%88%E5%85%AC%E5%BC%8F-%E8%88%9C%E6%98%BE%E8%B4%A2%E7%BB%8F.md?/le=aow
+https://github.com/santiagorobert8771/vympxa/commit/9cbe6d6edcb19100184aaeb5fb558d9aee9152eb
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%88%86%E5%8C%80%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%9D%80%E7%BB%84%E5%90%88%E5%85%AC%E5%BC%8F-%E8%88%9C%E6%98%BE%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E6%81%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E8%AE%A1%E5%88%92%E8%B5%B0%E5%8A%BF-%E6%9F%91%E5%89%8D%E8%B4%A2%E7%BB%8F.md?/dc=exw
+https://github.com/newtonangela37/ptgtmz/commit/6fa95a4476f97718c2adde011b72a4dc1f69164a
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E6%81%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E8%AE%A1%E5%88%92%E8%B5%B0%E5%8A%BF-%E6%9F%91%E5%89%8D%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%90%90%E8%9A%8A%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%BB%84%E5%90%88%E8%AE%A1%E5%88%92-%E7%BB%86%E6%8A%BC%E8%B4%A2%E7%BB%8F.md?/nv=swc
+https://github.com/lynchsavannah236/zdvogj/commit/87702c474112b4b80dc4d1535e9c0d9399d02e65
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%90%90%E8%9A%8A%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%BB%84%E5%90%88%E8%AE%A1%E5%88%92-%E7%BB%86%E6%8A%BC%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E6%9D%8F%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%BB%84%E5%90%88%E6%8A%80%E5%B7%A7-%E6%9F%91%E6%8C%9A%E8%B4%A2%E7%BB%8F.md?/ra=ojy
+https://github.com/bakerangela49/grknbo/commit/e509f961b3461b29c438e60d9ed9b45fa3085dc9
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E6%9D%8F%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%BB%84%E5%90%88%E6%8A%80%E5%B7%A7-%E6%9F%91%E6%8C%9A%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E5%95%A1%E4%B8%88%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%9D%80%E7%BB%84%E8%AE%A1%E5%88%92-%E6%A9%99%E5%91%A2%E8%B4%A2%E7%BB%8F.md?/rq=rkj
+https://github.com/meyercheyenne9451/isfjmp/commit/2a52d3929a35f393bde6537afd1bc7abd130d3a3
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E5%95%A1%E4%B8%88%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%9D%80%E7%BB%84%E8%AE%A1%E5%88%92-%E6%A9%99%E5%91%A2%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%AB%A1%E5%93%91%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%BB%93%E6%9E%9C%E5%8E%86%E5%8F%B2%E9%A2%84%E6%B5%8B-%E5%B9%8C%E7%AA%96%E8%B4%A2%E7%BB%8F.md?/ml=uom
+https://github.com/santiagorobert8771/vympxa/commit/26f5f94cd8e415cc156c0ca1974328505c2b269e
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%AB%A1%E5%93%91%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%BB%93%E6%9E%9C%E5%8E%86%E5%8F%B2%E9%A2%84%E6%B5%8B-%E5%B9%8C%E7%AA%96%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E7%9C%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%AE%9E%E5%8A%9B%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B9%B3%E5%8F%B0-%E7%AB%AF%E7%AB%BF%E8%B4%A2%E7%BB%8F.md?/we=yen
+https://github.com/newtonangela37/ptgtmz/commit/4428257bc2924435e4c50b059fb019ba50216141
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E7%9C%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%AE%9E%E5%8A%9B%E5%85%AC%E4%BC%97%E5%8F%B7%E5%B9%B3%E5%8F%B0-%E7%AB%AF%E7%AB%BF%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%9A%8A%E7%AA%9D%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%B9%B3%E5%8F%B0app-%E7%9E%8E%E5%A3%B9%E8%B4%A2%E7%BB%8F.md?/ec=mqe
+https://github.com/lynchsavannah236/zdvogj/commit/f79c466fc1453859618599c5991ce6e52b96b693
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%9A%8A%E7%AA%9D%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%B9%B3%E5%8F%B0app-%E7%9E%8E%E5%A3%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%9C%AA%E6%9F%AF%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc%E9%9D%A0%E8%B0%B1%E5%B9%B3%E5%8F%B0-%E6%8A%95%E6%B6%9D%E8%B4%A2%E7%BB%8F.md?/vu=twl
+https://github.com/bakerangela49/grknbo/commit/c2ec09267d248e37a2a4e65a8d93b3d152b4e725
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%9C%AA%E6%9F%AF%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc%E9%9D%A0%E8%B0%B1%E5%B9%B3%E5%8F%B0-%E6%8A%95%E6%B6%9D%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%AE%B2%E8%AF%B6%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%80%8D%E6%95%B0%E8%AF%B4%E6%98%8E-%E7%BB%86%E6%AD%A4%E8%B4%A2%E7%BB%8F.md?/po=wkg
+https://github.com/meyercheyenne9451/isfjmp/commit/3b73c6052e327d1fd32b933097ce002ec6438541
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%AE%B2%E8%AF%B6%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%80%8D%E6%95%B0%E8%AF%B4%E6%98%8E-%E7%BB%86%E6%AD%A4%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E9%9D%B6%E7%9C%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%80%8D%E7%8E%87%E5%A4%9A%E5%B0%91-%E9%97%AA%E5%80%9C%E8%B4%A2%E7%BB%8F.md?/ig=vzy
+https://github.com/santiagorobert8771/vympxa/commit/6a99acf62d018be0e6c959f80a3c9d2b2648a60b
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E9%9D%B6%E7%9C%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%80%8D%E7%8E%87%E5%A4%9A%E5%B0%91-%E9%97%AA%E5%80%9C%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%B4%A8%E5%A7%BF%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%80%8D%E7%8E%87-%E9%A3%9F%E6%8A%95%E8%B4%A2%E7%BB%8F.md?/ec=ica
+https://github.com/lynchsavannah236/zdvogj/commit/e6e9356d56560829fea8cb5ba621348b594eb852
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%B4%A8%E5%A7%BF%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%80%8D%E7%8E%87-%E9%A3%9F%E6%8A%95%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E7%87%83%E5%B1%B1%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E9%AB%98%E5%80%8D%E7%8E%87%E5%B9%B3%E5%8F%B0-%E6%A6%94%E6%85%88%E8%B4%A2%E7%BB%8F.md?/mk=fzn
+https://github.com/newtonangela37/ptgtmz/commit/d7581680b9eb79a93fedf71b147e3da1bfb8505f
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E7%87%83%E5%B1%B1%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E9%AB%98%E5%80%8D%E7%8E%87%E5%B9%B3%E5%8F%B0-%E6%A6%94%E6%85%88%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B8%A9%E8%A3%81%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%A0%87%E5%87%86%E5%80%8D%E7%8E%87-%E7%90%A2%E5%80%9C%E8%B4%A2%E7%BB%8F.md?/am=lui
+https://github.com/bakerangela49/grknbo/commit/433ec9ec490f04f08e711932a2634956d34df97a
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B8%A9%E8%A3%81%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E6%A0%87%E5%87%86%E5%80%8D%E7%8E%87-%E7%90%A2%E5%80%9C%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%BB%8E%E7%97%B4%3Apc%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E5%91%A2%E7%AB%BF%E8%B4%A2%E7%BB%8F.md?/fo=vky
+https://github.com/meyercheyenne9451/isfjmp/commit/37223a9f6dd9a03bace05bc76e946fb2e9078ca7
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%BB%8E%E7%97%B4%3Apc%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-%E5%91%A2%E7%AB%BF%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%BA%B7%E5%B0%A4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc2.8%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E5%A4%A7%E7%A5%9E-%E5%A6%92%E6%9F%91%E8%B4%A2%E7%BB%8F.md?/jx=cgg
+https://github.com/santiagorobert8771/vympxa/commit/86c37ea1d735e38d964b75015ee67bccc15826f5
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%BA%B7%E5%B0%A4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc2.8%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E5%A4%A7%E7%A5%9E-%E5%A6%92%E6%9F%91%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%B0%99%E5%95%83%3A%E7%8E%A9pc%E8%B5%9A%E9%92%B1%E7%BD%91%E7%AB%99%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E6%98%A5%E6%A1%8C%E8%B4%A2%E7%BB%8F.md?/pn=mqo
+https://github.com/lynchsavannah236/zdvogj/commit/fafbda506ce4fe814c4a38ba7ff038bf4c308824
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%B0%99%E5%95%83%3A%E7%8E%A9pc%E8%B5%9A%E9%92%B1%E7%BD%91%E7%AB%99%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E6%98%A5%E6%A1%8C%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E5%B0%A4%3Apc%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%B2%BE%E5%87%86%E9%A2%84%E6%B5%8B%E5%9C%A8%E7%BA%BF-%E7%93%A2%E5%80%9C%E8%B4%A2%E7%BB%8F.md?/rp=gky
+https://github.com/newtonangela37/ptgtmz/commit/221d7149c1ffcf959e9f3475e1a79b816ff85a37
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E5%B0%A4%3Apc%E5%8A%A0%E6%8B%BF%E5%A4%A7%E7%B2%BE%E5%87%86%E9%A2%84%E6%B5%8B%E5%9C%A8%E7%BA%BF-%E7%93%A2%E5%80%9C%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B8%A9%E8%9A%8A%3A%E8%B0%81%E6%9C%89%E5%8A%A0%E6%8B%BF%E5%A4%A7pc28%E4%BF%A1%E8%AA%89%E7%BE%A4-%E5%9F%8E%E7%9E%AA%E8%B4%A2%E7%BB%8F.md?/ha=exm
+https://github.com/bakerangela49/grknbo/commit/70594ffc8bce5c777f25391d47ed9838de7ebbc9
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B8%A9%E8%9A%8A%3A%E8%B0%81%E6%9C%89%E5%8A%A0%E6%8B%BF%E5%A4%A7pc28%E4%BF%A1%E8%AA%89%E7%BE%A4-%E5%9F%8E%E7%9E%AA%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E7%BA%B7%E4%BB%B2%3A%E5%A4%A7%E7%99%BD%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E5%8A%A0%E6%8B%BF%E5%A4%A728-%E7%90%A2%E8%B0%80%E8%B4%A2%E7%BB%8F.md?/ml=dwk
+https://github.com/meyercheyenne9451/isfjmp/commit/278763d7619b8469960fd6029a573cbef8db95ea
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E7%BA%B7%E4%BB%B2%3A%E5%A4%A7%E7%99%BD%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E5%8A%A0%E6%8B%BF%E5%A4%A728-%E7%90%A2%E8%B0%80%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%AF%99%E6%AF%96%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E8%A7%84%E5%BE%8B-%E7%90%B3%E9%86%8B%E8%B4%A2%E7%BB%8F.md?/ji=gzn
+https://github.com/newtonangela37/ptgtmz/commit/189dba1d0b4559518aa585a04d0e8bc21c540e6f
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%AF%99%E6%AF%96%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E8%A7%84%E5%BE%8B-%E7%90%B3%E9%86%8B%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%82%A5%E5%A2%83%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%A4%A7%E5%B0%8F%E5%8D%95%E5%8F%8C%E6%8A%80%E5%B7%A7-%E6%AF%A1%E6%8A%95%E8%B4%A2%E7%BB%8F.md?/xf=mxl
+https://github.com/lynchsavannah236/zdvogj/commit/4d395d886af99e54bb0f86cb94e6a0dce486e47a
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%82%A5%E5%A2%83%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E5%A4%A7%E5%B0%8F%E5%8D%95%E5%8F%8C%E6%8A%80%E5%B7%A7-%E6%AF%A1%E6%8A%95%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9B%E5%85%B3%3A%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E5%8A%A0%E6%8B%BF%E5%A4%A728-%E7%96%BD%E6%85%88%E8%B4%A2%E7%BB%8F.md?/ji=ioc
+https://github.com/santiagorobert8771/vympxa/commit/0bc9c90c88731580cef8326810d0596ba853f098
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9B%E5%85%B3%3A%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E5%8A%A0%E6%8B%BF%E5%A4%A728-%E7%96%BD%E6%85%88%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E7%82%BC%E9%94%A4%3A%E5%8D%97%E5%AE%AB28%E5%A8%B1%E4%B9%90%E5%AE%98%E7%BD%91%E7%BD%91%E5%9D%80-%E5%9D%9D%E6%85%88%E8%B4%A2%E7%BB%8F.md?/xx=bfi
+https://github.com/bakerangela49/grknbo/commit/0ee16d43bd8e504fee74902e1f932fa929a42d18
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E7%82%BC%E9%94%A4%3A%E5%8D%97%E5%AE%AB28%E5%A8%B1%E4%B9%90%E5%AE%98%E7%BD%91%E7%BD%91%E5%9D%80-%E5%9D%9D%E6%85%88%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E9%BB%91%E5%93%A8%3A%E5%8A%A0%E6%8B%BF%E5%A4%A71314-%E6%8A%95%E6%BD%9E%E8%B4%A2%E7%BB%8F.md?/kt=hlz
+https://github.com/meyercheyenne9451/isfjmp/commit/0d4b168a5d404e78d042c7402d5a25d0cf3f5998
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E9%BB%91%E5%93%A8%3A%E5%8A%A0%E6%8B%BF%E5%A4%A71314-%E6%8A%95%E6%BD%9E%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%97%95%E9%9E%98%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc2.8%E8%B5%B0%E5%8A%BF-%E9%97%AA%E8%88%9C%E8%B4%A2%E7%BB%8F.md?/yg=jdb
+https://github.com/newtonangela37/ptgtmz/commit/bb269426878e11f08dd6bb442e0b5c01221d1e38
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%97%95%E9%9E%98%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc2.8%E8%B5%B0%E5%8A%BF-%E9%97%AA%E8%88%9C%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%81%BB%E8%AE%B2%3A%E5%BD%A9%E8%AE%AFpc28-%E8%82%9D%E5%A4%B9%E8%B4%A2%E7%BB%8F.md?/ma=nrf
+https://github.com/lynchsavannah236/zdvogj/commit/55f68eea70c0aa1ac713ea9b76b23aabf9c6233a
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%81%BB%E8%AE%B2%3A%E5%BD%A9%E8%AE%AFpc28-%E8%82%9D%E5%A4%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%82%BC%E8%81%8A%3Apc28%E7%A8%B3%E8%B5%A2%E6%8A%80%E6%9C%AF-%E7%97%B9%E8%BD%AE%E8%B4%A2%E7%BB%8F.md?/uf=swu
+https://github.com/santiagorobert8771/vympxa/commit/aad76db198f97c61ff148da0956b90967f56d758
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%82%BC%E8%81%8A%3Apc28%E7%A8%B3%E8%B5%A2%E6%8A%80%E6%9C%AF-%E7%97%B9%E8%BD%AE%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E9%9B%85%3Apc28%E5%B9%B3%E6%8E%A8%E6%89%93%E5%8F%91-%E9%97%AA%E5%8B%92%E8%B4%A2%E7%BB%8F.md?/sr=xbp
+https://github.com/bakerangela49/grknbo/commit/b54d3ee7744c1fceab263480939f7c2422841d7c
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E9%9B%85%3Apc28%E5%B9%B3%E6%8E%A8%E6%89%93%E5%8F%91-%E9%97%AA%E5%8B%92%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E9%99%A8%E7%BA%B7%3Apc%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%8F-%E7%AB%BF%E5%88%B9%E8%B4%A2%E7%BB%8F.md?/cl=mqe
+https://github.com/meyercheyenne9451/isfjmp/commit/35428092c5871f6376a1627982df28eb292878f7
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E9%99%A8%E7%BA%B7%3Apc%E5%8A%A0%E6%8B%BF%E5%A4%A728%E7%AE%97%E6%B3%95%E5%85%AC%E5%BC%8F-%E7%AB%BF%E5%88%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%86%89%E6%AD%BB%3Apc28%E6%9D%80%E7%BB%84%E5%90%88%E6%89%93%E6%B3%95-%E5%80%8C%E8%83%83%E8%B4%A2%E7%BB%8F.md?/jx=hkj
+https://github.com/newtonangela37/ptgtmz/commit/2d8f6caf1c42322c07036ed8084ebd9a00113c1a
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%86%89%E6%AD%BB%3Apc28%E6%9D%80%E7%BB%84%E5%90%88%E6%89%93%E6%B3%95-%E5%80%8C%E8%83%83%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%88%AA%E5%86%89%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E9%AB%98%E8%83%9C%E7%8E%87%E6%89%93%E6%B3%95-%E8%9A%80%E7%A9%BA%E8%B4%A2%E7%BB%8F.md?/ct=org
+https://github.com/lynchsavannah236/zdvogj/commit/aedf1f160f3c625e81caa762b2c37a68d8d995ad
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%88%AA%E5%86%89%3A%E5%8A%A0%E6%8B%BF%E5%A4%A728%E9%AB%98%E8%83%9C%E7%8E%87%E6%89%93%E6%B3%95-%E8%9A%80%E7%A9%BA%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%90%A8%E5%A2%93%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc%E6%9D%80%E7%BB%84%E5%90%88%E6%80%8E%E4%B9%88%E5%8E%8B-%E6%8F%AD%E8%B4%A2%E8%B4%A2%E7%BB%8F.md?/zs=hko
+https://github.com/santiagorobert8771/vympxa/commit/5b94196269312bb8c64c1b4f43f35ed4174ccc35
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%90%A8%E5%A2%93%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc%E6%9D%80%E7%BB%84%E5%90%88%E6%80%8E%E4%B9%88%E5%8E%8B-%E6%8F%AD%E8%B4%A2%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%80%A5%E4%BC%8E%3Apc%E7%A8%B3%E8%B5%A2%E6%89%93%E6%B3%95-%E7%AA%96%E6%8D%8C%E8%B4%A2%E7%BB%8F.md?/zx=cbh
+https://github.com/bakerangela49/grknbo/commit/fa2fb498eb681044377d5ebce0af792bff5e50dc
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%80%A5%E4%BC%8E%3Apc%E7%A8%B3%E8%B5%A2%E6%89%93%E6%B3%95-%E7%AA%96%E6%8D%8C%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%85%94%E5%85%B3%3A%E6%88%98%E7%8B%BCpc%E9%A2%84%E6%B5%8B%E7%BD%91%E7%AB%99%E5%9C%A8%E7%BA%BF-%E5%9F%8E%E7%9E%AA%E8%B4%A2%E7%BB%8F.md?/pn=wao
+https://github.com/meyercheyenne9451/isfjmp/commit/a0bee3413da7f89664d8262ad85cbe1f80ae792f
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%85%94%E5%85%B3%3A%E6%88%98%E7%8B%BCpc%E9%A2%84%E6%B5%8B%E7%BD%91%E7%AB%99%E5%9C%A8%E7%BA%BF-%E5%9F%8E%E7%9E%AA%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E8%B7%AF%3A%E9%A3%9E%E9%A3%9E28%E9%A2%84%E6%B5%8B-%E5%80%9C%E7%95%8F%E8%B4%A2%E7%BB%8F.md?/xv=gkn
+https://github.com/newtonangela37/ptgtmz/commit/ce7f2c631b0e7769766123d640d3efb42ac3c3b9
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E8%B7%AF%3A%E9%A3%9E%E9%A3%9E28%E9%A2%84%E6%B5%8B-%E5%80%9C%E7%95%8F%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E9%94%A4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc28%E7%A8%B3%E8%B5%9A-%E6%BD%9C%E4%BA%93%E8%B4%A2%E7%BB%8F.md?/sb=kon
+https://github.com/santiagorobert8771/vympxa/commit/d4a3577d31cfeed8c3bddb044de412eb0bb7dc89
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E9%94%A4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc28%E7%A8%B3%E8%B5%9A-%E6%BD%9C%E4%BA%93%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%A8%9C%E5%88%86%3A%E9%BC%8E%E7%9B%9Bpc%E5%8A%A0%E6%8B%BF%E5%A4%A728-%E7%AB%99%E4%BA%93%E8%B4%A2%E7%BB%8F.md?/qj=eir
+https://github.com/lynchsavannah236/zdvogj/commit/760b09e7f86a5e0c90bdc81e9fef8930635b9b12
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%A8%9C%E5%88%86%3A%E9%BC%8E%E7%9B%9Bpc%E5%8A%A0%E6%8B%BF%E5%A4%A728-%E7%AB%99%E4%BA%93%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E9%99%A8%E5%98%BF%3Apc28%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%AE%9A%E5%88%B6-%E7%A5%A8%E4%BF%BE%E8%B4%A2%E7%BB%8F.md?/we=rlj
+https://github.com/bakerangela49/grknbo/commit/2aa93d6b8458550759d87d4d08b964fe7007036c
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E9%99%A8%E5%98%BF%3Apc28%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%AE%9A%E5%88%B6-%E7%A5%A8%E4%BF%BE%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E5%8C%80%E5%B9%BC%3Apc%E9%A2%84%E6%B5%8B%E7%BB%93%E6%9E%9C-%E4%BD%B3%E6%8A%95%E8%B4%A2%E7%BB%8F.md?/mm=knm
+https://github.com/meyercheyenne9451/isfjmp/commit/878b9db3e5446f261b0bfd0cf67023abcbad8761
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E5%8C%80%E5%B9%BC%3Apc%E9%A2%84%E6%B5%8B%E7%BB%93%E6%9E%9C-%E4%BD%B3%E6%8A%95%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%97%95%E7%BA%B7%3Apc%E5%BC%80%E5%A5%96%E7%BD%91%E5%9D%80%E5%A4%9A%E5%B0%91%E7%BB%99%E4%B8%80%E4%B8%AA-%E6%8A%95%E8%BD%AE%E8%B4%A2%E7%BB%8F.md?/wf=hbz
+https://github.com/lynchsavannah236/zdvogj/commit/99af7a4052d55e194cb8805c56ab1573339e9544
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%97%95%E7%BA%B7%3Apc%E5%BC%80%E5%A5%96%E7%BD%91%E5%9D%80%E5%A4%9A%E5%B0%91%E7%BB%99%E4%B8%80%E4%B8%AA-%E6%8A%95%E8%BD%AE%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%AF%8C%E5%B8%90%3Apc%E5%BC%80%E5%A5%96%E5%AE%98%E7%BD%91-%E6%B9%9B%E7%AA%96%E8%B4%A2%E7%BB%8F.md?/vu=bag
+https://github.com/santiagorobert8771/vympxa/commit/debdd64e1b93bc545906b7fa3f6ee661d968cecc
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%AF%8C%E5%B8%90%3Apc%E5%BC%80%E5%A5%96%E5%AE%98%E7%BD%91-%E6%B9%9B%E7%AA%96%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%B5%9D%E8%B0%99%3Apc%E5%BC%80%E5%A5%96%E7%BB%93%E6%9E%9C%E5%8F%82%E8%80%83%E9%A2%84%E6%B5%8B-%E8%92%99%E5%B3%AD%E8%B4%A2%E7%BB%8F.md?/lo=iqp
+https://github.com/newtonangela37/ptgtmz/commit/0fbf08ca3aa66da04c8f4dc60091cd49fe9ad80e
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%B5%9D%E8%B0%99%3Apc%E5%BC%80%E5%A5%96%E7%BB%93%E6%9E%9C%E5%8F%82%E8%80%83%E9%A2%84%E6%B5%8B-%E8%92%99%E5%B3%AD%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E8%8B%B9%E8%8B%B9%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc%E8%8A%B1%E5%9B%AD%E9%A2%84%E6%B5%8B-%E6%B2%99%E7%AA%96%E8%B4%A2%E7%BB%8F.md?/jh=pxl
+https://github.com/bakerangela49/grknbo/commit/314bb780edd8d0d3a350ca9efe45f4b2eaf1f1e4
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E8%8B%B9%E8%8B%B9%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7pc%E8%8A%B1%E5%9B%AD%E9%A2%84%E6%B5%8B-%E6%B2%99%E7%AA%96%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%B5%96%E6%9D%A5%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%B5%B0%E5%8A%BF%E5%9B%BE%E9%A2%84%E6%B5%8B%E5%AE%98%E6%96%B9%E7%BB%84%E5%90%88-%E7%AA%96%E5%9D%91%E8%B4%A2%E7%BB%8F.md?/un=cvt
+https://github.com/meyercheyenne9451/isfjmp/commit/54e4d952456aa4e1899b855f8b06008df4657b64
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%B5%96%E6%9D%A5%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%B5%B0%E5%8A%BF%E5%9B%BE%E9%A2%84%E6%B5%8B%E5%AE%98%E6%96%B9%E7%BB%84%E5%90%88-%E7%AA%96%E5%9D%91%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%8F%8A%E8%AF%9D%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8B%E9%A2%84%E6%B5%8B-%E5%87%B8%E7%9E%AA%E8%B4%A2%E7%BB%8F.md?/sa=cge
+https://github.com/santiagorobert8771/vympxa/commit/87439bbe7d1b08321001b5174a9bc31d4f57674c
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%8F%8A%E8%AF%9D%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8B%E9%A2%84%E6%B5%8B-%E5%87%B8%E7%9E%AA%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E4%BB%AA%E5%B0%A4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8B28%E5%BC%80%E5%A5%96%E5%AE%98%E7%BD%91-%E6%BE%B3%E5%93%BA%E8%B4%A2%E7%BB%8F.md?/lk=cay
+https://github.com/newtonangela37/ptgtmz/commit/b6a084eede68444924f427e817100a5f3e184884
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E4%BB%AA%E5%B0%A4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8B28%E5%BC%80%E5%A5%96%E5%AE%98%E7%BD%91-%E6%BE%B3%E5%93%BA%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9B%E7%87%83%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%B5%B0%E5%8A%BF%E7%BD%91%E7%AB%99-%E8%AF%BD%E5%88%B9%E8%B4%A2%E7%BB%8F.md?/jc=eiv
+https://github.com/lynchsavannah236/zdvogj/commit/ea9ca6e92cebd9e458966097e651f5489448c925
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9B%E7%87%83%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%B5%B0%E5%8A%BF%E7%BD%91%E7%AB%99-%E8%AF%BD%E5%88%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%82%94%E9%BB%91%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8Bpc28%E5%AE%98%E7%BD%91%E5%BC%80%E5%A5%96%E5%8F%B7%E7%A0%81%E9%A2%84%E6%B5%8B-%E5%90%88%E5%B1%85%E8%B4%A2%E7%BB%8F.md?/rp=jcb
+https://github.com/bakerangela49/grknbo/commit/465ebaa5454c684b94fea93801f25165c56f662c
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%82%94%E9%BB%91%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8Bpc28%E5%AE%98%E7%BD%91%E5%BC%80%E5%A5%96%E5%8F%B7%E7%A0%81%E9%A2%84%E6%B5%8B-%E5%90%88%E5%B1%85%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E8%82%9A%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8Bpc28%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%8E%A9-%E8%A7%85%E6%B2%99%E8%B4%A2%E7%BB%8F.md?/cl=pkz
+https://github.com/meyercheyenne9451/isfjmp/commit/73b0db8485fef90a5ca9560aa5b15275fa17b378
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E8%82%9A%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%9B%8B%E8%9B%8Bpc28%E5%9C%A8%E7%BA%BF%E8%AF%95%E7%8E%A9-%E8%A7%85%E6%B2%99%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9B%E5%86%89%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E7%A5%9E28%E8%B5%B0%E5%8A%BF%E5%9B%BE-%E5%A4%B9%E5%9D%91%E8%B4%A2%E7%BB%8F.md?/en=lzx
+https://github.com/santiagorobert8771/vympxa/commit/8d78ab74cf078b0e45b2e4bbd52fee9ed8bae8b0
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9B%E5%86%89%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E7%A5%9E28%E8%B5%B0%E5%8A%BF%E5%9B%BE-%E5%A4%B9%E5%9D%91%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%A4%8F%E9%9C%B2%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E7%A5%9E%E9%A2%84%E6%B5%8B2.8%E7%BD%91%E7%AB%99-%E9%80%BC%E7%93%B7%E8%B4%A2%E7%BB%8F.md?/ca=jnb
+https://github.com/newtonangela37/ptgtmz/commit/d0bfa30193b9c20eefa6a41cbb1ab31d62791ac9
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%A4%8F%E9%9C%B2%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E7%A5%9E%E9%A2%84%E6%B5%8B2.8%E7%BD%91%E7%AB%99-%E9%80%BC%E7%93%B7%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E6%88%91%E7%83%99%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E7%A5%9E%E8%B5%B0%E5%8A%BF%E5%9B%BE-%E6%A1%8C%E4%BF%BE%E8%B4%A2%E7%BB%8F.md?/ft=oig
+https://github.com/lynchsavannah236/zdvogj/commit/6d88bd9970da5916c1c4e7aca419d648a30268f1
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E6%88%91%E7%83%99%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E7%A5%9E%E8%B5%B0%E5%8A%BF%E5%9B%BE-%E6%A1%8C%E4%BF%BE%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E4%B8%88%E9%99%A8%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A3%9E%E9%A3%9E%E9%A2%84%E6%B5%8B%E5%A4%A7%E7%99%BD-%E5%8C%AA%E7%AB%99%E8%B4%A2%E7%BB%8F.md?/ir=xqp
+https://github.com/bakerangela49/grknbo/commit/760404ce4091098a2213dd244670284f2ee164d4
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E4%B8%88%E9%99%A8%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A3%9E%E9%A3%9E%E9%A2%84%E6%B5%8B%E5%A4%A7%E7%99%BD-%E5%8C%AA%E7%AB%99%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%BB%AA%E6%AE%B4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A3%9E%E9%A3%9E28-%E6%9E%97%E7%9E%AA%E8%B4%A2%E7%BB%8F.md?/xv=cgu
+https://github.com/meyercheyenne9451/isfjmp/commit/bffc63c50b290f8793e02db3d01d404ac2d41e40
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%BB%AA%E6%AE%B4%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A3%9E%E9%A3%9E28-%E6%9E%97%E7%9E%AA%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%A4%8F%E5%8E%A6%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A3%9E%E9%A3%9Epc%E8%9B%8B%E8%9B%8B%E9%A2%84%E6%B5%8B28%E9%A2%84%E6%B5%8B-%E7%BC%BA%E8%88%9C%E8%B4%A2%E7%BB%8F.md?/ts=dki
+https://github.com/santiagorobert8771/vympxa/commit/c03aa56c88600af79213d8afa8664fac84408364
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%A4%8F%E5%8E%A6%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A3%9E%E9%A3%9Epc%E8%9B%8B%E8%9B%8B%E9%A2%84%E6%B5%8B28%E9%A2%84%E6%B5%8B-%E7%BC%BA%E8%88%9C%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%82%A5%E6%AD%BB%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%80%E6%B5%8B%E8%AF%95-%E7%B1%B3%E7%AB%AF%E8%B4%A2%E7%BB%8F.md?/ig=jdr
+https://github.com/newtonangela37/ptgtmz/commit/c61cd269d2213d00c08174a281a0c81ea09f503a
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%82%A5%E6%AD%BB%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%80%E6%B5%8B%E8%AF%95-%E7%B1%B3%E7%AB%AF%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%8F%88%E5%90%A8%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%8028-%E6%B3%BB%E5%88%A8%E8%B4%A2%E7%BB%8F.md?/zi=lpn
+https://github.com/lynchsavannah236/zdvogj/commit/0aabe2941ee1bc3c9053750162cd518c34d7203d
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%8F%88%E5%90%A8%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%8028-%E6%B3%BB%E5%88%A8%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E6%81%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%80%E5%BC%80%E5%A5%96-%E5%A3%A4%E8%9A%80%E8%B4%A2%E7%BB%8F.md?/bp=ima
+https://github.com/bakerangela49/grknbo/commit/36369607ace15c4e2ff0e3ba7de9f8f0e3f60ee4
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E6%81%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%80%E5%BC%80%E5%A5%96-%E5%A3%A4%E8%9A%80%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E5%9D%AA%E6%8A%9B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%80%E9%A2%84%E6%B5%8B%E7%BD%91-%E9%B8%A6%E5%88%A8%E8%B4%A2%E7%BB%8F.md?/zy=haz
+https://github.com/meyercheyenne9451/isfjmp/commit/ed363a74580ee3dbdf8bfaa3cbe5ae75be7ef0dd
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E5%9D%AA%E6%8A%9B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%9B%B6%E4%B8%80%E9%A2%84%E6%B5%8B%E7%BD%91-%E9%B8%A6%E5%88%A8%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E5%A4%8F%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E7%AE%97%E6%B3%958-%E5%8C%AA%E5%A4%B9%E8%B4%A2%E7%BB%8F.md?/cv=thf
+https://github.com/santiagorobert8771/vympxa/commit/7cee19fc8af8502a41ce96c3cd0a34f09de01957
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%BF%83%E5%A4%8F%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E7%AE%97%E6%B3%958-%E5%8C%AA%E5%A4%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%B8%81%E9%9A%99%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E6%9D%80%E7%BB%84%E5%90%88-%E8%B6%8A%E9%9B%87%E8%B4%A2%E7%BB%8F.md?/on=ima
+https://github.com/newtonangela37/ptgtmz/commit/dda6d2fb14f2dc5338f1451bc40a06ebaf73aefa
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%B8%81%E9%9A%99%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E6%9D%80%E7%BB%84%E5%90%88-%E8%B6%8A%E9%9B%87%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%AF%9D%E6%80%A5%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E6%9D%80%E7%BB%84%E7%AE%97%E6%B3%951-%E6%BE%B3%E5%A3%B9%E8%B4%A2%E7%BB%8F.md?/fi=hlz
+https://github.com/lynchsavannah236/zdvogj/commit/9a3da09cf25e8de535eb02ec2acfddd71ee2ff18
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%AF%9D%E6%80%A5%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E6%9D%80%E7%BB%84%E7%AE%97%E6%B3%951-%E6%BE%B3%E5%A3%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%90%90%E7%9C%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E7%AE%97%E6%B3%955%E5%A4%A7%E5%B0%8F-%E7%AA%96%E6%BE%B3%E8%B4%A2%E7%BB%8F.md?/vo=ycq
+https://github.com/bakerangela49/grknbo/commit/3f0cb93fdfd77915c472564702399a2c130681f7
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%90%90%E7%9C%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%87%A4%E5%87%B0%E9%A2%84%E6%B5%8B%E7%AE%97%E6%B3%955%E5%A4%A7%E5%B0%8F-%E7%AA%96%E6%BE%B3%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%B8%88%E5%B8%90%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%A6%8128%E5%87%A4%E5%87%B0-%E7%93%B7%E8%9B%B9%E8%B4%A2%E7%BB%8F.md?/gp=lfd
+https://github.com/meyercheyenne9451/isfjmp/commit/f501fa18bc7b23e6a8975c828d256d39defde3f6
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%B8%88%E5%B8%90%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%A6%8128%E5%87%A4%E5%87%B0-%E7%93%B7%E8%9B%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E6%AF%99%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%A6%8128%E9%A2%84%E6%B5%8B%E5%87%A4%E5%87%B0-%E7%BC%BA%E6%81%8D%E8%B4%A2%E7%BB%8F.md?/bz=led
+https://github.com/santiagorobert8771/vympxa/commit/c41b2c825be58f912cd551042762ee7806d1c092
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E6%9D%A5%E6%AF%99%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%A6%8128%E9%A2%84%E6%B5%8B%E5%87%A4%E5%87%B0-%E7%BC%BA%E6%81%8D%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%A2%A9%E5%80%92%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%A6%8128%E5%BC%80%E5%A5%96-%E6%8A%BC%E6%9C%9F%E8%B4%A2%E7%BB%8F.md?/sh=aes
+https://github.com/newtonangela37/ptgtmz/commit/ac7c4855b6f832dd5301e6c90db3fae7b49140d5
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%A2%A9%E5%80%92%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%A6%8128%E5%BC%80%E5%A5%96-%E6%8A%BC%E6%9C%9F%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E9%99%A8%E6%B4%BE%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB-%E5%91%A2%E7%82%94%E8%B4%A2%E7%BB%8F.md?/py=ptr
+https://github.com/lynchsavannah236/zdvogj/commit/7eebf1aa3a3d42745e29f34a1356d4b41f12b6d8
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E9%99%A8%E6%B4%BE%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB-%E5%91%A2%E7%82%94%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%A1%98%E8%9A%8A%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB%E9%9B%86%E5%9B%A2-%E7%AB%99%E5%90%88%E8%B4%A2%E7%BB%8F.md?/go=dym
+https://github.com/bakerangela49/grknbo/commit/e8343ea91211df8b6d87ad53ecb373574ddf71cc
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%A1%98%E8%9A%8A%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB%E9%9B%86%E5%9B%A2-%E7%AB%99%E5%90%88%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E6%95%85%E5%8F%AA%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB28-%E5%89%8D%E4%BD%95%E8%B4%A2%E7%BB%8F.md?/zn=vgt
+https://github.com/meyercheyenne9451/isfjmp/commit/91c9cad90761669fe0aaeba092bb156f6594ce04
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E6%95%85%E5%8F%AA%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB28-%E5%89%8D%E4%BD%95%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E9%AA%8B%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%ABapp-%E9%80%BC%E6%A9%99%E8%B4%A2%E7%BB%8F.md?/sq=uyv
+https://github.com/newtonangela37/ptgtmz/commit/eec52d2fce1f442b8e7a8511d0d5cdeba6d48a77
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E9%AA%8B%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%ABapp-%E9%80%BC%E6%A9%99%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%AF%93%E6%90%85%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%AF%BA%E4%BA%9A%E9%9B%86%E5%9B%A2-%E7%B4%AB%E7%AA%96%E8%B4%A2%E7%BB%8F.md?/wv=thv
+https://github.com/lynchsavannah236/zdvogj/commit/0e5425522cfbbc3e52b8bcdfa9eb5d5bc0f9b0a5
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%AF%93%E6%90%85%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E8%AF%BA%E4%BA%9A%E9%9B%86%E5%9B%A2-%E7%B4%AB%E7%AA%96%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E8%9A%8A%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-%E8%B7%83%E8%8A%88%E8%B4%A2%E7%BB%8F.md?/cb=swk
+https://github.com/santiagorobert8771/vympxa/commit/276f902bfacdb182371802d9dbb31353f46a35c7
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E8%9A%8A%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%8D%97%E5%AE%AB%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-%E8%B7%83%E8%8A%88%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B1%A4%E6%AD%BB%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E5%8F%A428%E9%A2%84%E6%B5%8B-%E6%B2%BB%E5%9D%91%E8%B4%A2%E7%BB%8F.md?/ec=koc
+https://github.com/bakerangela49/grknbo/commit/a96b304166b5970c49ca28204ed27df541e0702e
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B1%A4%E6%AD%BB%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E5%8F%A428%E9%A2%84%E6%B5%8B-%E6%B2%BB%E5%9D%91%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%BF%A1%E4%BF%A1%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E5%8F%A4%E9%A2%84%E6%B5%8B-%E6%BD%98%E7%AB%99%E8%B4%A2%E7%BB%8F.md?/fo=tpd
+https://github.com/meyercheyenne9451/isfjmp/commit/afa90727d6cc7fbe213b8d8d19aa88768bbb03fe
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E4%BF%A1%E4%BF%A1%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E5%8F%A4%E9%A2%84%E6%B5%8B-%E6%BD%98%E7%AB%99%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%AE%B4%E8%82%9B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E5%8F%A4%E9%A2%84%E6%B5%8B%E7%BD%91%E7%AB%99-%E5%AA%92%E4%BD%95%E8%B4%A2%E7%BB%8F.md?/ca=ihv
+https://github.com/newtonangela37/ptgtmz/commit/b70b6bd2c2fb2308f27ac1c6316f0896041e7fa2
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%AE%B4%E8%82%9B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%A4%A7%E5%8F%A4%E9%A2%84%E6%B5%8B%E7%BD%91%E7%AB%99-%E5%AA%92%E4%BD%95%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%B0%A4%E5%AF%8C%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%AD%94%E6%98%8E%E9%A2%84%E6%B5%8B-%E9%99%B6%E8%AF%BD%E8%B4%A2%E7%BB%8F.md?/aj=fyx
+https://github.com/lynchsavannah236/zdvogj/commit/cb18ba7cfaa9072af28ab46643f0c50f7298a0c1
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%B0%A4%E5%AF%8C%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%AD%94%E6%98%8E%E9%A2%84%E6%B5%8B-%E9%99%B6%E8%AF%BD%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E6%97%A8%E5%A3%95%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%AD%94%E6%98%8E%E7%B2%BE%E5%87%86%E9%A2%84%E6%B5%8B-%E8%AF%BF%E5%8D%A7%E8%B4%A2%E7%BB%8F.md?/ed=orq
+https://github.com/santiagorobert8771/vympxa/commit/2f4d30a41663fd0c6f68c7b37831724c10b1e423
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E6%97%A8%E5%A3%95%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%AD%94%E6%98%8E%E7%B2%BE%E5%87%86%E9%A2%84%E6%B5%8B-%E8%AF%BF%E5%8D%A7%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B1%B2%E5%90%90%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%AD%94%E6%98%8E%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B-%E5%8B%9F%E7%AB%99%E8%B4%A2%E7%BB%8F.md?/dw=ima
+https://github.com/bakerangela49/grknbo/commit/e5506ac031f22414dfa105b108059606e03f8d6d
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B1%B2%E5%90%90%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E5%AD%94%E6%98%8E%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B-%E5%8B%9F%E7%AB%99%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%BF%B7%E9%85%B6%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC%E9%A2%84%E6%B5%8B-%E8%83%83%E9%B8%A6%E8%B4%A2%E7%BB%8F.md?/ks=fym
+https://github.com/meyercheyenne9451/isfjmp/commit/9a95e6bb68e6918449790c507d53c3a9577a8630
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%BF%B7%E9%85%B6%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC%E9%A2%84%E6%B5%8B-%E8%83%83%E9%B8%A6%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E8%B7%AF%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B-%E4%BD%95%E5%A4%B9%E8%B4%A2%E7%BB%8F.md?/uh=jcq
+https://github.com/lynchsavannah236/zdvogj/commit/86e0f306434811807e9b64ebfb2207c54b2c7fc2
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%B7%AF%E8%B7%AF%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B-%E4%BD%95%E5%A4%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%98%BF%E5%AE%97%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC2.8%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%95-%E5%BE%84%E8%B4%A2%E8%B4%A2%E7%BB%8F.md?/bk=osi
+https://github.com/newtonangela37/ptgtmz/commit/2bb879dfe572068cacce532241a51c2fb0f590e5
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E5%98%BF%E5%AE%97%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC2.8%E5%9C%A8%E7%BA%BF%E6%B5%8B%E8%AF%95-%E5%BE%84%E8%B4%A2%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%82%BC%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC2.8%E9%A2%84%E6%B5%8B-%E8%BF%B8%E7%B1%B3%E8%B4%A2%E7%BB%8F.md?/gz=xrp
+https://github.com/santiagorobert8771/vympxa/commit/ba8449f80a1cef2b247d2ab403790aa1e294a73f
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%82%BC%E7%82%BC%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC2.8%E9%A2%84%E6%B5%8B-%E8%BF%B8%E7%B1%B3%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E8%9A%8A%E6%AF%96%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC%E9%A2%84%E6%B5%8B%E7%BD%91-%E4%BA%93%E6%8F%AD%E8%B4%A2%E7%BB%8F.md?/ei=hve
+https://github.com/bakerangela49/grknbo/commit/59e010927a6d90b786fb4ea4eda23addd851c681
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E8%9A%8A%E6%AF%96%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC%E9%A2%84%E6%B5%8B%E7%BD%91-%E4%BA%93%E6%8F%AD%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%97%95%E8%82%9B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BCpc%E9%A2%84%E6%B5%8B-%E5%A3%B9%E6%9F%91%E8%B4%A2%E7%BB%8F.md?/oh=org
+https://github.com/meyercheyenne9451/isfjmp/commit/420220e816ac8c8d53b7a79f992eb8c31e293fe5
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E8%97%95%E8%82%9B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BCpc%E9%A2%84%E6%B5%8B-%E5%A3%B9%E6%9F%91%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%BD%BF%E8%B7%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC2.8-%E6%BE%B3%E5%8B%92%E8%B4%A2%E7%BB%8F.md?/kj=ima
+https://github.com/lynchsavannah236/zdvogj/commit/732f9b5b6d123ac9d3ed0dabe92c0a8181cdaa8a
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%BD%BF%E8%B7%8B%3A%E5%8A%A0%E6%8B%BF%E5%A4%A7%E6%88%98%E7%8B%BC2.8-%E6%BE%B3%E5%8B%92%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%BB%A5%E8%B5%96%3Apc%E8%B5%B0%E5%8A%BF%E5%9B%BE-%E6%B1%BE%E6%BD%9C%E8%B4%A2%E7%BB%8F.md?/os=odb
+https://github.com/newtonangela37/ptgtmz/commit/e2c44c1fd48930cb3865947c19b55aa542975534
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E6%BB%A5%E8%B5%96%3Apc%E8%B5%B0%E5%8A%BF%E5%9B%BE-%E6%B1%BE%E6%BD%9C%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%BF%9F%E5%A2%93%3Apc%E8%B5%B0%E5%8A%BF%E5%9B%BE%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A2%84%E6%B5%8B2.8-%E8%B6%8A%E6%BD%9C%E8%B4%A2%E7%BB%8F.md?/ts=hbp
+https://github.com/santiagorobert8771/vympxa/commit/4f56b13e1de4dc4a12251491059e6ce967cc4959
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E7%BF%9F%E5%A2%93%3Apc%E8%B5%B0%E5%8A%BF%E5%9B%BE%E5%8A%A0%E6%8B%BF%E5%A4%A7%E9%A2%84%E6%B5%8B2.8-%E8%B6%8A%E6%BD%9C%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%B8%90%E5%95%86%3Apc%E8%B5%B0%E5%8A%BF%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E7%A5%9E%E6%B5%8B%E5%AE%98%E7%BD%91-%E8%9B%B9%E7%AB%99%E8%B4%A2%E7%BB%8F.md?/cv=tml
+https://github.com/bakerangela49/grknbo/commit/81248534aacf61e357ab28817ab51641103e39ce
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E5%B8%90%E5%95%86%3Apc%E8%B5%B0%E5%8A%BF%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E7%A5%9E%E6%B5%8B%E5%AE%98%E7%BD%91-%E8%9B%B9%E7%AB%99%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E6%8E%B7%E6%8F%AD%3Apc%E8%B5%B0%E5%8A%BF%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E5%AE%98%E7%BD%91-%E5%8B%92%E7%9E%AA%E8%B4%A2%E7%BB%8F.md?/om=oig
+https://github.com/meyercheyenne9451/isfjmp/commit/c1a51a1ef261b13a6b9fda0eac8ff7e59edad452
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E6%8E%B7%E6%8F%AD%3Apc%E8%B5%B0%E5%8A%BF%E5%9C%A8%E7%BA%BF%E9%A2%84%E6%B5%8B%E5%AE%98%E7%BD%91-%E5%8B%92%E7%9E%AA%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9A%E5%A2%A9%3Apc%E9%A3%9E%E9%A3%9E%E8%9B%8B%E8%9B%8B%E9%A2%84%E6%B5%8B%E7%BD%91-%E4%BD%B3%E8%B4%A2%E8%B4%A2%E7%BB%8F.md?/py=bfy
+https://github.com/lynchsavannah236/zdvogj/commit/ae8a404912b90d9681b4fe204dc2ef8a08cbec25
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E8%82%9A%E5%A2%A9%3Apc%E9%A3%9E%E9%A3%9E%E8%9B%8B%E8%9B%8B%E9%A2%84%E6%B5%8B%E7%BD%91-%E4%BD%B3%E8%B4%A2%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%B0%96%E5%90%90%3Apc%E9%A3%9E%E9%A3%9E%E9%A2%84%E6%B5%8B%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E5%8B%92%E6%8A%BC%E8%B4%A2%E7%BB%8F.md?/tm=rlj
+https://github.com/newtonangela37/ptgtmz/commit/c5ed326979c31ea354dd76212c6ff3f5775e9ebe
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E8%B0%96%E5%90%90%3Apc%E9%A3%9E%E9%A3%9E%E9%A2%84%E6%B5%8B%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E5%8B%92%E6%8A%BC%E8%B4%A2%E7%BB%8F.md
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%A4%8F%E6%AF%8D%3Apc%E9%A3%9E%E9%A3%9E%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E7%9E%AA%E8%9B%B9%E8%B4%A2%E7%BB%8F.md?/ih=lei
+https://github.com/santiagorobert8771/vympxa/commit/778bfa537f1f9b66a7cda14a860087d54b462753
+https://github.com/santiagorobert8771/vympxa/blob/main/2026%E5%AE%98%E6%96%B9%E5%A4%8F%E6%AF%8D%3Apc%E9%A3%9E%E9%A3%9E%E5%8A%A0%E6%8B%BF%E5%A4%A7-%E7%9E%AA%E8%9B%B9%E8%B4%A2%E7%BB%8F.md
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B1%A4%E8%B0%99%3Apc%E9%A3%9E%E9%A3%9E%E9%A2%84%E6%B5%8B2.8-%E6%B6%9D%E7%B1%B3%E8%B4%A2%E7%BB%8F.md?/wv=qpi
+https://github.com/bakerangela49/grknbo/commit/cba3b25f0c728df3e6a4183e86a298b9627f2090
+https://github.com/bakerangela49/grknbo/blob/main/2026%E5%AE%98%E6%96%B9%E6%B1%A4%E8%B0%99%3Apc%E9%A3%9E%E9%A3%9E%E9%A2%84%E6%B5%8B2.8-%E6%B6%9D%E7%B1%B3%E8%B4%A2%E7%BB%8F.md
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E7%9C%8B%E8%9A%8A%3Apc%E9%A3%9E%E9%A3%9E2.8-%E9%B8%A6%E5%88%A8%E8%B4%A2%E7%BB%8F.md?/ve=jxv
+https://github.com/meyercheyenne9451/isfjmp/commit/aa7319edb925ce6b00d82a4ebe3367986b8d5403
+https://github.com/meyercheyenne9451/isfjmp/blob/main/2026%E5%AE%98%E6%96%B9%E7%9C%8B%E8%9A%8A%3Apc%E9%A3%9E%E9%A3%9E2.8-%E9%B8%A6%E5%88%A8%E8%B4%A2%E7%BB%8F.md
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%8F%8A%E5%82%A5%3Apc%E5%A4%A7%E7%A5%9E28-%E6%81%8D%E7%97%B0%E8%B4%A2%E7%BB%8F.md?/zs=oca
+https://github.com/lynchsavannah236/zdvogj/commit/6b1ca0de077865cd733406abc28c9522e2353c2c
+https://github.com/lynchsavannah236/zdvogj/blob/main/2026%E5%AE%98%E6%96%B9%E5%8F%8A%E5%82%A5%3Apc%E5%A4%A7%E7%A5%9E28-%E6%81%8D%E7%97%B0%E8%B4%A2%E7%BB%8F.md
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E7%A4%BA%E7%97%AA%3Apc%E5%A4%A7%E7%A5%9E28app%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-%E7%B3%A0%E8%83%B8%E8%B4%A2%E7%BB%8F.md?/sg=nwk
+https://github.com/newtonangela37/ptgtmz/commit/643cb9e48fc616092d48273fdf0ec0c1c7822004
+https://github.com/newtonangela37/ptgtmz/blob/main/2026%E5%AE%98%E6%96%B9%E7%A4%BA%E7%97%AA%3Apc%E5%A4%A7%E7%A5%9E28app%E5%AE%98%E7%BD%91%E4%B8%8B%E8%BD%BD-%E7%B3%A0%E8%83%B8%E8%B4%A2%E7%BB%8F.md
